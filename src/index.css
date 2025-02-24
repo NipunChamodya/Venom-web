@@ -48,7 +48,7 @@
     @apply h-[48px] px-[16px] text-lg font-normal;
   }
   .btn-accent {
-    @apply text-white bg-accent hover:bg-accentHover;
+    @apply text-white bg-[#6D5FD5] hover:bg-accentHover;
   }
   .btn-white {
     @apply text-accent bg-white hover:bg-white/90;
@@ -66,7 +66,7 @@
   
 }
 
-/* Infinite Scrolling Animation */
+
 @keyframes infinite-scroll {
   from {
     transform: translateX(0);
@@ -110,7 +110,7 @@
   animation-play-state: paused;
 }
 
-/* Ensure Overview is Above */
+
 #overview {
   position: relative;
   z-index: 10; 
@@ -124,13 +124,13 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
-  /* navbar stays above */
+
   z-index: 50;
 }
 
 .team-card {
   position: relative;
-   /* Keeps team section below the navbar */
+
   z-index: 1;
 }
 
@@ -148,4 +148,15 @@ a {
   position: absolute;
   top: 50%;
   left: 10%;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 10s ease-in-out infinite;
 }

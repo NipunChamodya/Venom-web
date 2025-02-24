@@ -37,18 +37,18 @@ const Cards = () => {
                 }`}
                 aria-label={`Select ${title}`}
               >
-                {/* Card Icon */}
+                
                 <div className="mb-6">
                   {icon ? <img src={icon} alt={title} /> : <span>No Image</span>}
                 </div>
 
-                {/* Card Title */}
+                
                 <div className="mb-3 text-[30px] font-medium">{title}</div>
 
-                {/* Card Subtitle */}
+                
                 <p className="mb-6 text-light">{subtitle}</p>
 
-                {/* Arrow Image (Only visible for active card) */}
+                
                 {index === cardIndex && <img src={ArrowImg} alt="Active Indicator" />}
               </div>
             </div>

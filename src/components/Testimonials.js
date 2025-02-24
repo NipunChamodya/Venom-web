@@ -12,11 +12,13 @@ const Testimonials = () => {
   return <section id='test' className='section'>
     <div className=' container mx-auto'>
       {/*title*/}
-      <h2 className='title mb-10 lg:mb-20 text-center mx-auto'> 
-        {title}
-      </h2>
+      <h2 className="text-[70px] font-bold leading-[1.0] break-words 
+               animate-gradient bg-gradient-to-r from-black via-[#6D5FD5] to-purple-800 
+               bg-clip-text text-transparent text-center">
+  {title}
+</h2>
       {/*slider*/}
-      <div>
+      <div className='mt-9'> 
         <ClientSlider clients={clients}/>
       </div>
     </div>

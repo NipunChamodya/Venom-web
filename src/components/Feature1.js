@@ -7,7 +7,7 @@ const Feature1 = () => {
   const {feature1} = features;
 
   //distructure feature1
-  const { title, subtitle, btnLink, btnIcon, image} = feature1;
+  const { title, subtitle, btnIcon, image} = feature1;
 
 
   return <section id='f1' className='section'>
@@ -16,12 +16,17 @@ const Feature1 = () => {
         {/* text */}
         <div className='flex-1' data-aos='fade-right' data-aos-offset='200'>
   
-          <h2 className='text-[70px] font-bold  leading-[1.1] break-words'>{title}</h2>
-          <p className='pretitle'>{subtitle}</p>
+        <h2 className="text-[70px] font-bold leading-[1.5] break-words 
+               animate-gradient bg-gradient-to-r from-black via-[#6D5FD5] to-purple-800 
+               bg-clip-text text-transparent">
+  {title}
+</h2>
+
+          <p className='pretitle leading-[1.9] '>{subtitle}</p>
           
 
           <button className='btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all'>
-            {btnLink}
+            
             <img src={btnIcon}alt=''/>
           </button>
 

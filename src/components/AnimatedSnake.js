@@ -34,7 +34,7 @@ const AnimatedSnake = () => {
         <path
           id="snake"
           d="M10,200 Q200,50 400,200 T800,200"
-          stroke="rgba(0, 0, 255, 0.8)"  // Change to Blue
+          stroke="rgba(109, 95, 213, 0.8)"  
           strokeWidth="8"
           fill="none"
           strokeLinecap="round"

@@ -72,27 +72,27 @@ export const overview = {
 export const features = {
   feature1: {
     pretitle: 'Your Safety Companion',
-    title: 'Instant AI identification for Insects. Right in your pocket.',
+    title: 'About US',
     subtitle:
-      'Your Safety Companion',
+      'We are VenomVerse, creators of an innovative mobile application designed to help users identify various insects and reptiles, including snakes and other venomous or poisonous spiders.',
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature1Img,
   },
   feature2: {
     pretitle: 'Save your family',
-    title: 'Snap a photo, AI tells you what you need to know.',
+    title: '⁠Create a profile',
     subtitle:
-      'How It Works',
+      'Sign up and create your account and enjoy all features for free.',
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature2Img,
   },
   feature3: {
     pretitle: 'Hiking, gardening, or curious? Know instantly, stay safe.',
-    title: 'Hiking, gardening, or curious? Know instantly, stay safe.',
+    title: '⁠Scan or Upload',
     subtitle:
-      'Use anytime when you need',
+      'After signing in, you will be directed to our home page, where you can scan using the camera or upload an image from your gallery to identify the insects, snakes and spiders.',
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature3Img,
@@ -100,26 +100,26 @@ export const features = {
 };
 
 export const product = {
-  title: 'The Product we work with.',
+  title: 'Why choose us',
   subtitle:
-    'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.',
+    'Our app is designed for ease of use while ensuring high accuracy and reliability.',
   cards: [
     {
       icon: CardIconImg1,
-      title: 'Cross platform',
-      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
+      title: 'Easy of use',
+      subtitle: 'Our application is user-friendly, simple to navigate, yet powerful and robust.',
       delay: 200,
     },
     {
       icon: CardIconImg2,
-      title: 'Cloud server',
-      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
+      title: 'Panic Button',
+      subtitle: 'An exclusive feature that connects users to the nearest hospital for immediate emergency assistance.',
       delay: 400,
     },
     {
       icon: CardIconImg3,
-      title: 'Machine learning',
-      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
+      title: 'Highly accurate',
+      subtitle: 'Advanced technologies like AI and machine learning enable highly accurate and reliable predictions.',
       delay: 600,
     },
   ],
@@ -195,7 +195,7 @@ export const testimonials = {
   clients: [
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+        'Wow! The gradient effect on the title looks amazing! 😍',
       image: 'https://avatars.githubusercontent.com/u/190462039?v=4',
       name: 'Pulindu Kulathilaka',
       position: '',
@@ -203,7 +203,7 @@ export const testimonials = {
     },
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+        'The typography is bold and eye-catching! 👌',
       image: 'https://avatars.githubusercontent.com/u/148585527?v=4',
       name: 'Thevindu Guruge',
       position: '',
@@ -211,7 +211,7 @@ export const testimonials = {
     },
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+        'The design looks clean and modern! 🚀',
       image: 'https://avatars.githubusercontent.com/u/185349192?v=4',
       name: 'Dewmi Wenushika',
       position: '',
@@ -219,7 +219,7 @@ export const testimonials = {
     },
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+        'The spacing makes the text easy to read! 📖',
       image: 'https://avatars.githubusercontent.com/u/160271718?v=4',
       name: 'Prabhashan',
       position: '',
@@ -227,7 +227,7 @@ export const testimonials = {
     },
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+        'Great use of colors! 🎨',
       image: 'https://avatars.githubusercontent.com/u/114611123?v=4',
       name: 'Nipun Karunarathna',
       position: '',
@@ -235,7 +235,7 @@ export const testimonials = {
     },
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+        'It looks smooth and visually appealing! 🔥',
       image: 'https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-1/455105311_1670504900155112_7552383223221078383_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=102&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeFt_t30Sbva2nwWCG8Zgb55bYxythbJtDRtjHK2Fsm0NP4kErFwlEC6QfnWPcc0tUAcZLXRJlCZTVDSEnuAXSS8&_nc_ohc=j2n6aS-y-68Q7kNvgGVxPoh&_nc_oc=AdgnPf-IY7sIvpvAiQNSbwMzoPYW_7Ez59QGuJmYB6ZrPJZeVQNvF7vc1hTeHzmBQ1A&_nc_zt=24&_nc_ht=scontent.fcmb2-2.fna&_nc_gid=ATTLqAQe5st1HBNFrmRWJfe&oh=00_AYD1eLXvJ8c7ukAfFRNDD2lPvZnmpMAqLmw5GyudExYEYQ&oe=67BF67A0',
       name: 'Hashen Tharusha',
       position: '',
@@ -243,7 +243,7 @@ export const testimonials = {
     },
     {
       message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
+        'Excited to see the final version! 👏',
       image: 'https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-1/327158910_934948387917179_7143140272689737821_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeHW1lmJaGufstSQjQhoCXcT4a_mbag-frvhr-ZtqD5-u6NoP0BgsrDBWEiq-FON3RpuqRX2075O4hf_i1YAz36_&_nc_ohc=Xp1W111G3JQQ7kNvgFLBcSg&_nc_oc=Adj33LzNCm9BEjLLFVd6vGQ7ePZ0O9hrO6c2e2wcN1sMueY-36dGoUs0ebZeibO9olQ&_nc_zt=24&_nc_ht=scontent.fcmb2-2.fna&_nc_gid=A1TdOPXCAtq6RaD_favytBX&oh=00_AYDep3aEpyCT18BVaRoBGuJT84pgfcU8BuifoZo5fOK9Nw&oe=67BF5DD9',
       name: 'Ashen Dilranga',
       position: '',
