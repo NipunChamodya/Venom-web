@@ -25,7 +25,7 @@ module.exports = {
         grey: '#F5F5F5',
       },
       backgroundImage: {
-        overview: "url('/src/assets/img/overview/bg.svg')",
+        overview: "url('src/assets/videos/Hero/vv_1.mp4)",
         cta: "url('/src/assets/img/cta/bg.svg')",
       },
     },
