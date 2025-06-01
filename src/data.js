@@ -129,7 +129,7 @@ export const product = {
 
 export const teamMembers = [
   {
-    name: "Pulindu Kulathilaka",
+    name: "Pulindu Kulathilaka - Leader",
     position: "Software Engineering Undergraduate",
     icon: "https://avatars.githubusercontent.com/u/190462039?v=4",
     socials: {
